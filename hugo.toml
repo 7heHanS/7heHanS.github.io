@@ -35,6 +35,21 @@ googleAnalytics = "G-5155KM3KTG"
   ShowWordCount = true
   UseHugoToc = true
 
+  # SEO 최적화
+  [params.homeInfoParams]
+    Title = "내가 먼저 엿보고 온 시간들"
+    Content = "기술, 투자, 그리고 삶에 대한 인사이트를 나눕니다."
+  
+  # Open Graph 및 Twitter 카드
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    
+  [params.socialMedia]
+    twitter = "7hehans" # 트위터 계정이 있다면
+
   [params.label]
     text = "Home"
     # icon = "/apple-touch-icon.png" # 아이콘을 사용하려면 주석 해제
@@ -109,3 +124,19 @@ googleAnalytics = "G-5155KM3KTG"
 
 [pagination]
   pagerSize = 5
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 80
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
