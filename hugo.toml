@@ -1,0 +1,90 @@
+# /media/thehans.han/data/future-glimpse/hugo.toml
+
+# 중요: GitHub Pages 배포 후 사용할 실제 주소로 변경해야 합니다.
+# 예: https://<github-username>.github.io/<repository-name>/
+baseURL = "https://7heHanS.github.io/"
+languageCode = "ko-kr"
+title = "내가 먼저 엿보고 온 시간들"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production" # 개발 중에는 "development"로 설정하면 빌드 속도가 빨라집니다.
+  description = "기술, 투자, 그리고 삶에 대한 기록"
+  author = "7heHanS" # 본인 이름 또는 닉네임으로 변경
+
+  defaultTheme = "auto" # "light", "dark" 또는 "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  UseHugoToc = true
+
+  [params.label]
+    text = "Home"
+    # icon = "/apple-touch-icon.png" # 아이콘을 사용하려면 주석 해제
+    # iconHeight = 35
+
+  # 홈페이지를 프로필 형태로 꾸며줍니다.
+  [params.profileMode]
+    enabled = true
+    title = "내가 먼저 엿보고 온 시간들"
+    subtitle = "미래를 탐험하고 기록하는 공간입니다. 기술, 투자, 그리고 삶에 대한 인사이트를 나눕니다."
+    imageUrl = "" # 프로필 이미지 경로 (예: "/profile.png")
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "프로필 이미지"
+    buttons = [
+      { name = "RFM", url = "/rfm" },
+      { name = "Study", url = "/study" },
+      { name = "Life", url = "/life" }
+    ]
+
+  # 소셜 아이콘 (필요한 경우 주석 해제 후 사용)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/7heHanS"
+
+
+# 상단 메뉴 구성
+[menu]
+  [[menu.main]]
+    identifier = "rfm"
+    name = "RFM"
+    url = "/rfm/"
+    weight = 10
+  [[menu.main]]
+    identifier = "study"
+    name = "Study"
+    url = "/study/"
+    weight = 20
+  [[menu.main]]
+    identifier = "life"
+    name = "Life"
+    url = "/life/"
+    weight = 30
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 40
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 50
+
+[pagination]
+  pagerSize = 5
