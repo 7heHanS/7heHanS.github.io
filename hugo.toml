@@ -64,17 +64,16 @@ googleAnalytics = "G-5155KM3KTG"
     name = "github"
     url = "https://github.com/7heHanS"
 
-  # 댓글 기능 (Giscus) 설정
+  # 댓글 기능 설정
   [params.comments]
-    giscus = true
-  [params.giscus]
+    provider = "giscus"
     repo = "7heHanS/7heHanS.github.io"
-    repoId = "R_kgDOPEDY2w"
+    repoID = "R_kgDOPEDY2w"
     category = "Comments"
-    categoryId = "DIC_kwDOPEDY284CsPBW"
+    categoryID = "DIC_kwDOPEDY284CsPBW"
     mapping = "pathname"
-    reactionsEnabled = "1"
-    emitMetadata = "0"
+    reactionsEnabled = true
+    emitMetadata = false
     inputPosition = "bottom"
     lang = "ko"
 
