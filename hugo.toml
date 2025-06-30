@@ -64,17 +64,21 @@ googleAnalytics = "G-5155KM3KTG"
     name = "github"
     url = "https://github.com/7heHanS"
 
-# 댓글 기능 설정
+# 댓글 기능 설정 (giscus 스크립트와 매칭)
 [params.comments]
   provider = "giscus"
+
+[params.giscus]
   repo = "7heHanS/7heHanS.github.io"
   repoID = "R_kgDOPEDY2w"
   category = "Comments"
   categoryID = "DIC_kwDOPEDY284CsPBW"
   mapping = "pathname"
-  reactionsEnabled = true
-  emitMetadata = false
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
   inputPosition = "bottom"
+  theme = "preferred_color_scheme"
   lang = "ko"
 
 # 상단 메뉴 구성
