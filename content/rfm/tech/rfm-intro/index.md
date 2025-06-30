@@ -11,7 +11,7 @@ categories: ["rfm", "tech"]
 
 ## RFM이란?
 
-**RFM(Robot Foundation Model)**은 텍스트, 비전, 행동(action) 등 다양한 멀티모달 입력을 통합하여  
+**RFM(Robot Foundation Model)** 은 텍스트, 비전, 행동(action) 등 다양한 멀티모달 입력을 통합하여  
 로봇이 상황을 이해하고, 판단하고, 스스로 움직일 수 있게 해주는 범용 인공지능 모델이다.
 
 GPT가 언어의 뇌라면, RFM은 로봇의 **시각·행동까지 포함된 진짜 두뇌**라고 할 수 있다.
