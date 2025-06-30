@@ -57,7 +57,7 @@ googleAnalytics = "G-5155KM3KTG"
 
   # Google Search Console 인증 태그
   [params.analytics.google]
-    SiteVerificationTag = "UxLGsPu-Wvho7GZE3aQ170RdvoeDiDiqc08sttaxQEg" # 여기에 발급받은 코드를 붙여넣으세요.
+    SiteVerificationTag = "YOUR_UNIQUE_VERIFICATION_CODE" # 여기에 발급받은 코드를 붙여넣으세요.
 
   # 소셜 아이콘 (필요한 경우 주석 해제 후 사용)
   [[params.socialIcons]]
