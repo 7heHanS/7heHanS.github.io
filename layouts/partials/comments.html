@@ -1,0 +1,19 @@
+{{- if .Site.Params.comments.provider }}
+  {{- if eq .Site.Params.comments.provider "giscus" }}
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ .Site.Params.comments.repo }}"
+            data-repo-id="{{ .Site.Params.comments.repoID }}"
+            data-category="{{ .Site.Params.comments.category }}"
+            data-category-id="{{ .Site.Params.comments.categoryID }}"
+            data-mapping="{{ .Site.Params.comments.mapping }}"
+            data-strict="{{ .Site.Params.comments.strict }}"
+            data-reactions-enabled="{{ .Site.Params.comments.reactionsEnabled }}"
+            data-emit-metadata="{{ .Site.Params.comments.emitMetadata }}"
+            data-input-position="{{ .Site.Params.comments.inputPosition }}"
+            data-theme="{{ .Site.Params.comments.theme }}"
+            data-lang="{{ .Site.Params.comments.lang }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+  {{- end }}
+{{- end }}

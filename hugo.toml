@@ -64,11 +64,9 @@ googleAnalytics = "G-5155KM3KTG"
     name = "github"
     url = "https://github.com/7heHanS"
 
-# 댓글 기능 설정 (giscus 스크립트와 매칭)
+# 댓글 기능 설정 - 이제 comments.html에서 직접 처리하므로 간소화 가능
 [params.comments]
   provider = "giscus"
-
-[params.giscus]
   repo = "7heHanS/7heHanS.github.io"
   repoID = "R_kgDOPEDY2w"
   category = "Comments"
