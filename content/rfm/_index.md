@@ -1,5 +1,5 @@
 ---
-title: "Rfm"
+title: "RFM (Robot Foundation Model)"
 date: 2025-06-30T10:41:25+09:00
 draft: false
 ---
