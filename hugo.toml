@@ -12,6 +12,9 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+# Google Analytics 설정 (위에서 발급받은 본인의 측정 ID로 변경하세요)
+googleAnalytics = "G-5155KM3KTG"
+
 [minify]
   disableXML = true
   minifyOutput = true
