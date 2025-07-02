@@ -27,10 +27,10 @@ RFM(Robot Foundation Model)의 핵심은 다양한 센서 입력을 통합하고
 [RoboCat, RT-X 등의 연장선]에서 새로운 시도를 공개했다:
 
 **Gemini On-Device**  
-→ RFM을 휴머노이드와 같은 실제 로봇에 **직접 탑재**할 수 있도록 경량화한 모델이다. :contentReference[oaicite:2]{index=2}
+→ RFM을 휴머노이드와 같은 실제 로봇에 **직접 탑재**할 수 있도록 경량화한 모델이다.
 
-📌 자세한 내용 및 공식 설명:  
-🔗 [DeepMind 블로그 – Gemini Robotics On-Device 발표]:contentReference[oaicite:3]{index=3}
+📌 자세한 내용:  
+🔗 [공식 블로그 – Gemini Robotics On-Device](https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/)
 
 ---
 
@@ -47,7 +47,8 @@ RFM(Robot Foundation Model)의 핵심은 다양한 센서 입력을 통합하고
 
 ![Apptronik Apollo에 탑재된 Gemini On-Device](google-deepmind-on-device.webp)
 
-이 이미지는 Google이 직접 시연한 Apptronik의 휴머노이드에 **Gemini On-Device를 안정적으로 탑재**한 예시입니다. 일반 네트워크 없이도 행동 예측과 제어가 가능한 점이 핵심이죠.:contentReference[oaicite:4]{index=4}
+이 이미지는 Google이 직접 시연한 Apptronik의 휴머노이드에 **Gemini On-Device를 안정적으로 탑재**한 예시입니다.
+일반 네트워크 없이도 행동 예측과 제어가 가능한 점이 핵심이죠.
 
 ---
 
@@ -67,7 +68,7 @@ Gemini On-Device는 로봇을 하나의 **스마트 컴퓨팅 기기**로 진화
 - **경량화(Lite RFM)**: 기존 Transformer 모델의 최적화  
 - **엣지 추론(Edge Inference)**: ROS2 + GPU 없이도 동작  
 - **하드웨어 독립성**: ARM 기반 다양한 폼팩터에 이식 가능  
-- **SDK 출시**: MuJoCo 시뮬레이터 기반 개발자 접근성 강화 :contentReference[oaicite:5]{index=5}
+- **SDK 출시**: MuJoCo 시뮬레이터 기반 개발자 접근성 강화
 
 ---
 
