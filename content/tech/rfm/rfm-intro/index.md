@@ -2,7 +2,7 @@
 title: "Robot Foundation Model, 로봇의 GPT가 온다"
 date: 2025-06-30
 tags: ["RFM", "로봇", "AI", "멀티모달"]
-categories: ["rfm", "tech"]
+categories: ["tech", "rfm"]
 ---
 
 > 내가 먼저 엿보고 온 시간들. 그 시작점은 RFM이었다.

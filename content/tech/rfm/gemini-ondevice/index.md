@@ -2,7 +2,7 @@
 title: "Gemini On-Device, RFM의 경량화는 어디까지 왔는가?"
 date: 2025-07-02
 tags: ["RFM", "Gemini", "On-device", "EdgeAI", "DeepMind"]
-categories: ["rfm", "tech"]
+categories: ["tech", "rfm"]
 ---
 
 > 로봇에게 두뇌를 심는다는 것은 이제 AI 서버를 연결하는 일이 아니라,  

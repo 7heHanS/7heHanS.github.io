@@ -65,8 +65,8 @@ googleAnalytics = "G-5155KM3KTG"
     imageHeight = 120
     imageTitle = "프로필 이미지"
     buttons = [
-      { name = "RFM", url = "/rfm" },
-      { name = "Study", url = "/study" },
+      { name = "Tech", url = "/tech" },
+      { name = "Thought", url = "/thought" },
       { name = "Life", url = "/life" }
     ]
 
@@ -97,14 +97,14 @@ googleAnalytics = "G-5155KM3KTG"
 # 상단 메뉴 구성
 [menu]
   [[menu.main]]
-    identifier = "rfm"
-    name = "RFM"
-    url = "/rfm/"
+    identifier = "tech"
+    name = "Tech"
+    url = "/tech/"
     weight = 10
   [[menu.main]]
-    identifier = "study"
-    name = "Study"
-    url = "/study/"
+    identifier = "thought"
+    name = "Thought"
+    url = "/thought/"
     weight = 20
   [[menu.main]]
     identifier = "life"
