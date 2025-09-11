@@ -59,7 +59,7 @@ googleAnalytics = "G-5155KM3KTG"
   [params.profileMode]
     enabled = true
     title = "내가 먼저 엿보고 온 시간들"
-    subtitle = "미래를 탐험하고 기록하는 공간입니다. 기술, 투자, 그리고 삶에 대한 인사이트를 나눕니다."
+    subtitle = "미래를 탐험하고 기록하는 공간입니다. 기술, 생각, 그리고 삶에 대한 인사이트를 나눕니다."
     imageUrl = "" # 프로필 이미지 경로 (예: "/profile.png")
     imageWidth = 120
     imageHeight = 120
