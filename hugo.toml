@@ -2,7 +2,7 @@
 
 # 중요: GitHub Pages 배포 후 사용할 실제 주소로 변경해야 합니다.
 # 예: https://<github-username>.github.io/<repository-name>/
-baseURL = "https://7heHanS.github.io/"
+baseURL = "https://7hehans.github.io/"
 languageCode = "ko-kr"
 title = "내가 먼저 엿보고 온 시간들"
 theme = "PaperMod"
