@@ -16,7 +16,7 @@ buildExpired = false
 googleAnalytics = "G-5155KM3KTG"
 
 [minify]
-  disableXML = true
+  disableXML = false
   minifyOutput = true
 
 [params]
